@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Androidlab3quiz">
         <activity
+            android:name=".GetStartedActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
